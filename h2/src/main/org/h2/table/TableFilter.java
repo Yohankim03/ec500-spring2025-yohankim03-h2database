@@ -917,6 +917,10 @@ public class TableFilter implements ColumnResolver {
         return filterCondition;
     }
 
+    public Expression getFullCondition(){
+        return fullCondition;
+    }
+
     /**
      * Remove the filter condition.
      */
